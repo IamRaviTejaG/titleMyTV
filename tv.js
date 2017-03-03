@@ -6,8 +6,8 @@ var EReg = /[Ee](\d+)/;
 var extReg = /(\..{3})\b/;
 
 var fileArr = [];
-var path = 'D:\\TV Shows\\Friends\\SEASON 3';
-var id = '1668';
+var path = 'D:\\TV Shows\\Friends\\SEASON 3'; // path of the tv show folder
+var id = '1668';	// themoviedb show id
 
 fs.readdir(path, function (err, files) {
     if (!err){
